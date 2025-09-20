@@ -1,0 +1,27 @@
+# 统一所有文本文件为 LF 结尾
+* text=auto eol=lf
+
+# 针对特定文件类型明确指定 LF
+*.js text eol=lf
+*.ts text eol=lf
+*.vue text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.browserslistrc text eol=lf
+
+# 二进制文件保持原样
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.pdf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
